@@ -11,9 +11,7 @@ to force the code to run without interval arithmetic (obviously you don't get a 
 ## Warnings
 
 Some of the proofs require a lot of memory. This is indicated in the scripts runproofs.m and runeverything.m, where you set the variable 
-lotsofmemoryavailable to either false or true.
-
-Running code without first initializing the global variable intervalarithmeticavailable to either true or false (this is done in initialize.m) will lead to errors.
+lotsofmemoryavailable to either false or true. Running code without first initializing the global variable intervalarithmeticavailable to either true or false (this is done in initialize.m) will lead to errors.
 
 ## Reproducing the results from the paper
 
