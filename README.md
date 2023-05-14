@@ -14,7 +14,7 @@ lotsofmemoryavailable to either false or true. Running code without first initia
 
 ## Reproducing the results from the paper
 
-The script runproof.m can be used to reproduce the computationnal parts of the proofs of the theorems from the paper, using precomputed data.
+The script runproof.m can be used to reproduce the computational parts of the proofs of the theorems from the paper, using precomputed data.
 In order to first regenerate data and then do the proofs, use the script runeverything.m.
 
 ## Below is a list of subdirectories 
