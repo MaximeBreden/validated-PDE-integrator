@@ -1,4 +1,4 @@
-This repository contains the Matlab codes associated to the paper "Validated integration of semilinear parabolic PDEs" by Jan Bouwe van den Berg, Maxime Breden and Ray Sheombarsing.
+This repository contains the Matlab codes associated to the paper "Validated integration of semilinear parabolic PDEs" by Jan Bouwe van den Berg, Maxime Breden and Ray Sheombarsing (https://arxiv.org/abs/2305.08221).
 
 The main directory contains the code for all Theorems and Figures. The proofs make use of the Intlab toolbox (http://www.ti3.tu-harburg.de/intlab/).
 
