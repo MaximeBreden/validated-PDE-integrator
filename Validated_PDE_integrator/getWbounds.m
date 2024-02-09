@@ -36,7 +36,7 @@ for d=1:D
     absQinv=abs(problem.semigroup.Qinv(:,:,d));
 
     % bound on the norm in the a priori ball
-    normxrstar=normL1(normC0(x(:,:,d)))+vartheta(d)*rstar(d);
+    normxrstar=normL1(normC0(x(:,:,d)),nu)+vartheta(d)*rstar(d);
 
     Dtk=expm1div(tau(d)*rlambda*(1+t))*diag(tau(d)*(1+t));
     for p=1:P 
