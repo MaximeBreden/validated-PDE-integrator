@@ -35,6 +35,11 @@ if nargin < 5 || isempty(rho0)
     % heuristic upper bound for rho
     rho_max = min(2 + 2*K/(alam_f), 10);
 
+    % making sure that the upper bound is not too large
+    while isinf(J(rho_max)) && rho_max>1+1e-10
+        rho_max = (1+rho_max)/2;
+    end
+
     % search for near-optimal rho
     rho0 = fminbnd(J, 1+2^-52, rho_max);
 
